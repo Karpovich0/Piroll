@@ -8,25 +8,31 @@
 
     <title>Piroll</title>
 
-    <!-- <link rel="stylesheet" href="css/DDS2.css"> -->
+    <link rel="stylesheet" href="css/DDS2.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="/img/icons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/img/icons/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="" class="nav__logo-link">
-                    <img src="" alt="" class="nav__logo">
+                <a href="">
+                    <img src="/img/header/header__logo.png" alt="" width="31" height="25">
                 </a>
                 <ul class="nav__list">
-                    <li class="nav__link">home</li>
-                    <li class="nav__link">about</li>
-                    <li class="nav__link">work</li>
-                    <li class="nav__link">process</li>
-                    <li class="nav__link">services</li>
-                    <li class="nav__link">testimonials</li>
-                    <li class="nav__link">contact</li>
+                    <li class="nav__link"><a href="">home</a></li>
+                    <li class="nav__link"><a href="">about</a></li>
+                    <li class="nav__link"><a href="">work</a></li>
+                    <li class="nav__link"><a href="">process</a></li>
+                    <li class="nav__link"><a href="">services</a></li>
+                    <li class="nav__link"><a href="">testimonials</a></li>
+                    <li class="nav__link"><a href="">contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,15 +41,17 @@
     <main>
 
         <!-- START banner -->
-        <div class="section-wrapper">
-            <section class="banner">
-                <h1 class="visually-hidden">
-                    Piroll - design studio
-                </h1>
-                <p class="banner__bold-paragraph"></p>
-                <p class="banner__regular-paragraph"></p>
-                <a href="" class="banner__link btn"></a>
-            </section>
+        <div class="container-wrapper">
+            <div class="container container--flex">
+                <section class="banner">
+                    <h1 class="visually-hidden">
+                        Piroll - design studio
+                    </h1>
+                    <p class="banner__bold-paragraph">We Design and Develop</p>
+                    <p class="banner__regular-paragraph">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
+                    <a href="" class="btn">contact us</a>
+                </section>
+            </div>
         </div>
         <!-- END banner -->
 
@@ -51,137 +59,187 @@
         <div class="section-wrapper">
             <section class="about">
                 <h2 class="section-title">About Us</h2>
-                <p class="section-subtext">Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.</p>
-                <img src="" alt="About us - signature" class="about__signature">
+                <p class="section-subtext">Divide have don't man wherein air fourth. Own itself make have night won't make.<br> A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.</p>
+                <img src="/img/about__signature.png" alt="Our signature" width="223" height="57">
             </section>
         </div>
         <!-- END about -->
 
         <!-- START skills -->
-        <div class="section-wrapper">
-            <section class="skills">
-                <div class="skills__item">
-                    <h2 class="skills__title">Professional skills</h2>
-                    <ul class="skills__list">
-                        <li>UI/UX Design 75%</li>
-                        <li>web development 90%</li>
-                        <li>marketing 65%</li>
-                    </ul>
+
+        <section class="skills">
+            <div class="skills__inner">
+                <div class="skills__item skills__item--content">
+                    <div class="skills__wrapper">
+                        <h2 class="section-title">Professional skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__counter skills__counter--first-number">UI/UX Design 75%</li>
+                            <li class="skills__counter skills__counter--second-number">web development 90%</li>
+                            <li class="skills__counter skills__counter--third-number">marketing 65%</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="skills__item">
-                    <img src="" alt="" class="skills__img">
+                <div class="skills__item skills__item--img">
+                    <img src="/img/skills__img.jpg" alt="" class="skills__img">
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
         <!-- END skills -->
 
         <!-- START statistic -->
-        <div class="section-wrapper container">
-            <section class="statistic">
-                <h2 class="visually-hidden">Our statistic</h2>
-                <ul class="statistic__list">
-                    <li>
-                        <img src="" alt="" class="statistic__img">
-                        <p class="statistic__counter">548</p>
-                        <p class="statistic__description">projects completed</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="statistic__img">
-                        <p class="statistic__counter">1465</p>
-                        <p class="statistic__description">WORKING HOURS</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="statistic__img">
-                        <p class="statistic__counter">612</p>
-                        <p class="statistic__description">POSITIVE FEEDBACKS</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="statistic__img">
-                        <p class="statistic__counter">735</p>
-                        <p class="statistic__description">HAPPY CLIENTS</p>
-                    </li>
-                </ul>
-            </section>
+        <div class="section-wrapper section-wrapper--green">
+            <div class="container">
+                <section class="statistic">
+                    <h2 class="visually-hidden">Our statistic</h2>
+                    <ul class="list">
+                        <li class="list__item">
+                            <img src="/img/statistic/4.png" alt="" class="list__img" width="40" height="36">
+                            <p class="list__header">548</p>
+                            <p class="list__description">projects completed</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/statistic/3.png" alt="" class="list__img" width="40" height="40">
+                            <p class="list__header">1465</p>
+                            <p class="list__description">WORKING HOURS</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/statistic/2.png" alt="" class="list__img" width="44" height="41">
+                            <p class="list__header">612</p>
+                            <p class="list__description">POSITIVE FEEDBACKS</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/statistic/1.png" alt="" class="list__img" width="40" height="36">
+                            <p class="list__header">735</p>
+                            <p class="list__description">HAPPY CLIENTS</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
         <!-- END statistic -->
 
         <!-- START work -->
-        <div class="section-wrapper">
-            <section class="work">
-                <h2 class="visually-hidden">Our work</h2>
-                <ul class="work-list">
-                    <li><img src="" alt="" class="work__img"></li>
-                    <li><img src="" alt="" class="work__img"></li>
-                    <li><img src="" alt="" class="work__img"></li>
-                    <li><img src="" alt="" class="work__img"></li>
-                    <li><img src="" alt="" class="work__img"></li>
-                    <li><img src="" alt="" class="work__img"></li>
-                    <li><img src="" alt="" class="work__img"></li>
-                    <li><img src="" alt="" class="work__img"></li>
-                </ul>
-                <button type="button" class="work__load-more">load more work</button>
-            </section>
-        </div>
+
+        <section class="work">
+            <h2 class="visually-hidden">Our work</h2>
+            <ul class="work-list">
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/1.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/1.jpg" alt="Our work number 1" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/2.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/2.jpg" alt="Our work number 2" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/3.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/3.jpg" alt="Our work number 3" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/4.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/4.jpg" alt="Our work number 4" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/5.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/5.jpg" alt="Our work number 5" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/6.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/6.jpg" alt="Our work number 6" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/7.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/7.jpg" alt="Our work number 7" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+                <li class="work__item">
+                    <a class="work__link" href="/img/work/8.jpg">
+                        <img class="work__eye" src="/img/work/work__eye.png" alt="" width="48" height="30">
+                        <img src="/img/work/8.jpg" alt="Our work number 8" class="work__img" width="342" height="300">
+                    </a>
+                </li>
+            </ul>
+            <button type="button" class="work__load-more">load more work</button>
+        </section>
+
         <!-- END work -->
 
         <!-- START work-process -->
         <div class="section-wrapper container">
             <section class="work-process">
-                <h2 class="section-title">Our Work Process</h2>
-                <p class="section-subtext">Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class="work-process__video">
+                <div class="work-process__head">
+                    <h2 class="section-title">Our Work Process</h2>
+                    <p class="section-subtext">Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
+                </div>
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class="work-process__video" width="1170" height="571">
                 </iframe>
             </section>
         </div>
         <!-- END work-process -->
 
         <!-- START services -->
-        <div class="section-wrapper container">
-            <section class="services">
-                <h2 class="visually-hidden">Our statistic</h2>
-                <ul class="services__list">
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">ui / ux design</p>
-                        <p class="services__description">Be set fourth land god darkness make it wherein own</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">web development</p>
-                        <p class="services__description">A she'd them bring void moving third she'd kind fill</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">app / mobile</p>
-                        <p class="services__description">Dominion man second spirit he, earth they're creeping</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">game design</p>
-                        <p class="services__description">Morning his saying moveth it multiply appear life be</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">SEO / marketing</p>
-                        <p class="services__description">Give won't after land fill creeping meat you, may</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">photography</p>
-                        <p class="services__description">Creepeth one seas cattle grass give moving saw give</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">graphic design</p>
-                        <p class="services__description">Open, great whales air rule for, fourth life whales</p>
-                    </li>
-                    <li>
-                        <img src="" alt="" class="services__img">
-                        <p class="services__title">illustrations</p>
-                        <p class="services__description">Whales likeness hath, man kind for them air two won't</p>
-                    </li>
-                </ul>
-            </section>
+        <div class="section-wrapper  section-wrapper--gray">
+            <div class="container">
+                <section class="services">
+                    <h2 class="visually-hidden">Our statistic</h2>
+                    <ul class="list">
+                        <li class="list__item">
+                            <img src="/img/services/8.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">ui / ux design</p>
+                            <p class="list__description list__description--black">Be set fourth land god darkness make it wherein own</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/services/7.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">web development</p>
+                            <p class="list__description list__description--black">A she'd them bring void moving third she'd kind fill</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/services/6.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">app / mobile</p>
+                            <p class="list__description list__description--black">Dominion man second spirit he, earth they're creeping</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/services/5.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">game design</p>
+                            <p class="list__description list__description--black">Morning his saying moveth it multiply appear life be</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/services/4.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">SEO / marketing</p>
+                            <p class="list__description list__description--black">Give won't after land fill creeping meat you, may</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/services/3.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">photography</p>
+                            <p class="list__description list__description--black">Creepeth one seas cattle grass give moving saw give</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/services/2.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">graphic design</p>
+                            <p class="list__description list__description--black">Open, great whales air rule for, fourth life whales</p>
+                        </li>
+                        <li class="list__item">
+                            <img src="/img/services/1.png" alt="" class="list__img">
+                            <p class="list__header list__header--black">illustrations</p>
+                            <p class="list__description list__description--black">Whales likeness hath, man kind for them air two won't</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </div>
         <!-- END services -->
 
@@ -189,16 +247,17 @@
         <div class="section-wrapper container">
             <section class="testimonials">
                 <h2 class="visually-hidden">Testimonials about our company</h2>
+
+                <blockquote class="testimonials__review">
+                    “ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”
+                    <cite class="testimonials__author">Michael Hopkins</cite>
+                </blockquote>
+                <ul class="testimonials__navigation">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </section>
-            <blockquote class="testimonials__review">
-                “ Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”
-                <cite class="testimonials__author">Michael Hopkins</cite>
-            </blockquote>
-            <ul class="testimonials__navigation">
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
         </div>
         <!-- END testimonials -->
 
